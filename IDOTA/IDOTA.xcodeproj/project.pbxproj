@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47B9C4321C94549B0044501E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9C4311C94549B0044501E /* AppDelegate.swift */; };
+		47B9C4341C94549B0044501E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9C4331C94549B0044501E /* ViewController.swift */; };
+		47B9C4371C94549B0044501E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B9C4351C94549B0044501E /* Main.storyboard */; };
+		47B9C4391C94549B0044501E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B9C4381C94549B0044501E /* Assets.xcassets */; };
+		47B9C43C1C94549B0044501E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B9C43A1C94549B0044501E /* LaunchScreen.storyboard */; };
+		47B9C4471C94549B0044501E /* IDOTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9C4461C94549B0044501E /* IDOTATests.swift */; };
+		47B9C4521C94549B0044501E /* IDOTAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B9C4511C94549B0044501E /* IDOTAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47B9C4431C94549B0044501E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47B9C4261C94549B0044501E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B9C42D1C94549B0044501E;
+			remoteInfo = IDOTA;
+		};
+		47B9C44E1C94549B0044501E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47B9C4261C94549B0044501E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B9C42D1C94549B0044501E;
+			remoteInfo = IDOTA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47B9C42E1C94549B0044501E /* IDOTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDOTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B9C4311C94549B0044501E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47B9C4331C94549B0044501E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47B9C4361C94549B0044501E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47B9C4381C94549B0044501E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47B9C43B1C94549B0044501E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47B9C43D1C94549B0044501E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B9C4421C94549B0044501E /* IDOTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDOTATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B9C4461C94549B0044501E /* IDOTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDOTATests.swift; sourceTree = "<group>"; };
+		47B9C4481C94549B0044501E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B9C44D1C94549B0044501E /* IDOTAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDOTAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B9C4511C94549B0044501E /* IDOTAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDOTAUITests.swift; sourceTree = "<group>"; };
+		47B9C4531C94549B0044501E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47B9C42B1C94549B0044501E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B9C43F1C94549B0044501E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B9C44A1C94549B0044501E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47B9C4251C94549B0044501E = {
+			isa = PBXGroup;
+			children = (
+				47B9C4301C94549B0044501E /* IDOTA */,
+				47B9C4451C94549B0044501E /* IDOTATests */,
+				47B9C4501C94549B0044501E /* IDOTAUITests */,
+				47B9C42F1C94549B0044501E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47B9C42F1C94549B0044501E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47B9C42E1C94549B0044501E /* IDOTA.app */,
+				47B9C4421C94549B0044501E /* IDOTATests.xctest */,
+				47B9C44D1C94549B0044501E /* IDOTAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47B9C4301C94549B0044501E /* IDOTA */ = {
+			isa = PBXGroup;
+			children = (
+				47B9C4311C94549B0044501E /* AppDelegate.swift */,
+				47B9C4331C94549B0044501E /* ViewController.swift */,
+				47B9C4351C94549B0044501E /* Main.storyboard */,
+				47B9C4381C94549B0044501E /* Assets.xcassets */,
+				47B9C43A1C94549B0044501E /* LaunchScreen.storyboard */,
+				47B9C43D1C94549B0044501E /* Info.plist */,
+			);
+			path = IDOTA;
+			sourceTree = "<group>";
+		};
+		47B9C4451C94549B0044501E /* IDOTATests */ = {
+			isa = PBXGroup;
+			children = (
+				47B9C4461C94549B0044501E /* IDOTATests.swift */,
+				47B9C4481C94549B0044501E /* Info.plist */,
+			);
+			path = IDOTATests;
+			sourceTree = "<group>";
+		};
+		47B9C4501C94549B0044501E /* IDOTAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47B9C4511C94549B0044501E /* IDOTAUITests.swift */,
+				47B9C4531C94549B0044501E /* Info.plist */,
+			);
+			path = IDOTAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47B9C42D1C94549B0044501E /* IDOTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B9C4561C94549B0044501E /* Build configuration list for PBXNativeTarget "IDOTA" */;
+			buildPhases = (
+				47B9C42A1C94549B0044501E /* Sources */,
+				47B9C42B1C94549B0044501E /* Frameworks */,
+				47B9C42C1C94549B0044501E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDOTA;
+			productName = IDOTA;
+			productReference = 47B9C42E1C94549B0044501E /* IDOTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47B9C4411C94549B0044501E /* IDOTATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B9C4591C94549B0044501E /* Build configuration list for PBXNativeTarget "IDOTATests" */;
+			buildPhases = (
+				47B9C43E1C94549B0044501E /* Sources */,
+				47B9C43F1C94549B0044501E /* Frameworks */,
+				47B9C4401C94549B0044501E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47B9C4441C94549B0044501E /* PBXTargetDependency */,
+			);
+			name = IDOTATests;
+			productName = IDOTATests;
+			productReference = 47B9C4421C94549B0044501E /* IDOTATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47B9C44C1C94549B0044501E /* IDOTAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B9C45C1C94549B0044501E /* Build configuration list for PBXNativeTarget "IDOTAUITests" */;
+			buildPhases = (
+				47B9C4491C94549B0044501E /* Sources */,
+				47B9C44A1C94549B0044501E /* Frameworks */,
+				47B9C44B1C94549B0044501E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47B9C44F1C94549B0044501E /* PBXTargetDependency */,
+			);
+			name = IDOTAUITests;
+			productName = IDOTAUITests;
+			productReference = 47B9C44D1C94549B0044501E /* IDOTAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47B9C4261C94549B0044501E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "m&m";
+				TargetAttributes = {
+					47B9C42D1C94549B0044501E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					47B9C4411C94549B0044501E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 47B9C42D1C94549B0044501E;
+					};
+					47B9C44C1C94549B0044501E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 47B9C42D1C94549B0044501E;
+					};
+				};
+			};
+			buildConfigurationList = 47B9C4291C94549B0044501E /* Build configuration list for PBXProject "IDOTA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47B9C4251C94549B0044501E;
+			productRefGroup = 47B9C42F1C94549B0044501E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47B9C42D1C94549B0044501E /* IDOTA */,
+				47B9C4411C94549B0044501E /* IDOTATests */,
+				47B9C44C1C94549B0044501E /* IDOTAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47B9C42C1C94549B0044501E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B9C43C1C94549B0044501E /* LaunchScreen.storyboard in Resources */,
+				47B9C4391C94549B0044501E /* Assets.xcassets in Resources */,
+				47B9C4371C94549B0044501E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B9C4401C94549B0044501E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B9C44B1C94549B0044501E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47B9C42A1C94549B0044501E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B9C4341C94549B0044501E /* ViewController.swift in Sources */,
+				47B9C4321C94549B0044501E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B9C43E1C94549B0044501E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B9C4471C94549B0044501E /* IDOTATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B9C4491C94549B0044501E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B9C4521C94549B0044501E /* IDOTAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47B9C4441C94549B0044501E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47B9C42D1C94549B0044501E /* IDOTA */;
+			targetProxy = 47B9C4431C94549B0044501E /* PBXContainerItemProxy */;
+		};
+		47B9C44F1C94549B0044501E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47B9C42D1C94549B0044501E /* IDOTA */;
+			targetProxy = 47B9C44E1C94549B0044501E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47B9C4351C94549B0044501E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B9C4361C94549B0044501E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47B9C43A1C94549B0044501E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B9C43B1C94549B0044501E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47B9C4541C94549B0044501E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47B9C4551C94549B0044501E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47B9C4571C94549B0044501E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDOTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaoxiannv.IDOTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47B9C4581C94549B0044501E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDOTA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaoxiannv.IDOTA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47B9C45A1C94549B0044501E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDOTATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaoxiannv.IDOTATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDOTA.app/IDOTA";
+			};
+			name = Debug;
+		};
+		47B9C45B1C94549B0044501E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IDOTATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaoxiannv.IDOTATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDOTA.app/IDOTA";
+			};
+			name = Release;
+		};
+		47B9C45D1C94549B0044501E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IDOTAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaoxiannv.IDOTAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IDOTA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		47B9C45E1C94549B0044501E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IDOTAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Xiaoxiannv.IDOTAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IDOTA;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47B9C4291C94549B0044501E /* Build configuration list for PBXProject "IDOTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B9C4541C94549B0044501E /* Debug */,
+				47B9C4551C94549B0044501E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B9C4561C94549B0044501E /* Build configuration list for PBXNativeTarget "IDOTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B9C4571C94549B0044501E /* Debug */,
+				47B9C4581C94549B0044501E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47B9C4591C94549B0044501E /* Build configuration list for PBXNativeTarget "IDOTATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B9C45A1C94549B0044501E /* Debug */,
+				47B9C45B1C94549B0044501E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47B9C45C1C94549B0044501E /* Build configuration list for PBXNativeTarget "IDOTAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B9C45D1C94549B0044501E /* Debug */,
+				47B9C45E1C94549B0044501E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47B9C4261C94549B0044501E /* Project object */;
+}
